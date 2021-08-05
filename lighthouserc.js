@@ -5,9 +5,9 @@ module.exports = {
       // url: 'https://retail-sit03-www.digidev.ha-medibank.com/'
     },
     upload: {
-      // target: 'temporary-public-storage'
-      target: 'filesystem',
-      outputDir: './reports'
+      target: 'temporary-public-storage'
+      // target: 'filesystem',
+      // outputDir: './reports'
     },
     assert: {
       preset: 'lighthouse:no-pwa',
